@@ -1,0 +1,284 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px ;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+img{
+    width: 100%;
+}
+
+body{
+   
+    background: rgb(255, 255, 255);
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      
+      
+}
+
+#topbar{
+margin: 50px 0;
+
+}
+
+#topbar .topbar-parents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#topbar .navbar ul{
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr)
+
+}
+
+#topbar .navbar li {
+    list-style: none;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 0 5px;
+    /* background-color: beige; */
+}
+
+#topbar .navbar a{
+    text-decoration: none;
+
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+
+#banner{ margin: 50px 0;
+
+}
+
+#banner .banner-p{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+
+
+}
+
+#banner .para{
+    font-size: 48px;
+
+
+}
+
+#banner .lorem{
+    font-size: 16px;
+
+
+}
+
+#banner .btn{
+    background-color: rgb(223, 10, 71);
+    padding: 6px 18px;
+    border-radius: 15px;
+    border-style: none;
+    color: aliceblue;
+    font-size: 14px;
+
+}
+
+
+/* #banner .img-item {background-color: black;
+
+
+} */
+
+
+#banner .img-item{
+    background-image: url(../images/Circle\ design.svg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px;
+}
+#banner .img-item img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+/*------------- banner close ------ */
+
+#popular {
+    background-color: rgb(240 240 240);
+    padding: 10px 0;
+}
+
+#popular .peraa{
+    font-size: 36px; 
+    text-align: center;
+    
+}
+
+#popular ul{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+     padding: 0;
+}
+
+
+#popular li{
+    list-style: none;
+    padding: 15px;
+    padding-bottom: 0;
+    background-color:white;
+
+}
+
+#popular h3{
+
+    font-size: 22px;
+}
+
+#popular ins{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+#popular p{
+    font-size: 14px;
+}
+#popular img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#popular .see-more {
+    text-align: right;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    ;
+
+}
+
+#popular .see-more a {
+    color: rgb(237, 20, 82);
+
+    text-decoration: none;
+}
+
+
+/* ---------------end popular--------- */
+
+
+#products{
+ margin: 50px;
+}
+
+#products .product-p{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    align-items: center;
+    
+}
+
+#products h3{
+    font-size: 36px;
+
+}
+
+#products p{
+
+
+}
+
+#products .btn{
+
+    padding: 8px 20px;
+    background-color: rgb(196, 53, 53);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+/* end main  */
+
+
+
+
+
+/* start footer  */
+
+
+#footerr{
+    background: rgb(10, 8, 38);
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+#footerr .footerr-p{
+    color: aliceblue;
+    text-align: center;
+
+
+}
+
+#footerr h4{
+    font-size: 25px;
+    margin: 0;
+}
+
+
+#footerr p{
+    margin: 5px 0;
+}
+#footerr ul {
+    display: grid;
+    grid-template-columns: repeat(4, .07fr);
+   
+    justify-content: center;
+
+    padding: 0;
+}
+#footerr li{
+    list-style: none;
+}
+
+#footerr a{
+    text-decoration: none;
+   
+}
+
+#footerr i{
+    color: white;
+    
+    
+}
+
